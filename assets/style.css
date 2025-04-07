@@ -247,6 +247,11 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+.visually-hidden {
+	color: #0a0a0a;
+	background-color: #fff;
+	opacity: 1;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
