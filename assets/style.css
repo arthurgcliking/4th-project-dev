@@ -21,6 +21,10 @@ body {
 .top-header .name {
 	font-size: 26px;
 }
+.top-header .info p {
+	font-size: 14px;
+	margin: 0px;
+}
 
 .nav ul {
 	display: flex;
@@ -69,7 +73,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
@@ -100,9 +104,9 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active-tag, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color:#000;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -242,6 +246,11 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+.visually-hidden {
+	color: #0a0a0a;
+	background-color: #fff;
+	opacity: 1;
 }
 
 @media all and (max-width: 1180px) {
